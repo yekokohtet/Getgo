@@ -13,6 +13,10 @@
 		B70935C5268F85DB00DBCAC6 /* CarItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70935C3268F85DB00DBCAC6 /* CarItemTableViewCell.swift */; };
 		B70935C6268F85DB00DBCAC6 /* CarItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B70935C4268F85DB00DBCAC6 /* CarItemTableViewCell.xib */; };
 		B70935C8268FA5BF00DBCAC6 /* BookingDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70935C7268FA5BF00DBCAC6 /* BookingDetailsViewController.swift */; };
+		B709362526902CB500DBCAC6 /* CarSearchHearderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B709362326902CB500DBCAC6 /* CarSearchHearderTableViewCell.swift */; };
+		B709362626902CB500DBCAC6 /* CarSearchHearderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B709362426902CB500DBCAC6 /* CarSearchHearderTableViewCell.xib */; };
+		B709362926902E3F00DBCAC6 /* CarFilterHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B709362726902E3F00DBCAC6 /* CarFilterHeaderTableViewCell.swift */; };
+		B709362A26902E3F00DBCAC6 /* CarFilterHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B709362826902E3F00DBCAC6 /* CarFilterHeaderTableViewCell.xib */; };
 		B7F21D3F268E0D81001D36B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F21D3E268E0D81001D36B2 /* AppDelegate.swift */; };
 		B7F21D41268E0D81001D36B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F21D40268E0D81001D36B2 /* SceneDelegate.swift */; };
 		B7F21D43268E0D81001D36B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F21D42268E0D81001D36B2 /* ViewController.swift */; };
@@ -28,6 +32,10 @@
 		B70935C3268F85DB00DBCAC6 /* CarItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarItemTableViewCell.swift; sourceTree = "<group>"; };
 		B70935C4268F85DB00DBCAC6 /* CarItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarItemTableViewCell.xib; sourceTree = "<group>"; };
 		B70935C7268FA5BF00DBCAC6 /* BookingDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingDetailsViewController.swift; sourceTree = "<group>"; };
+		B709362326902CB500DBCAC6 /* CarSearchHearderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarSearchHearderTableViewCell.swift; sourceTree = "<group>"; };
+		B709362426902CB500DBCAC6 /* CarSearchHearderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarSearchHearderTableViewCell.xib; sourceTree = "<group>"; };
+		B709362726902E3F00DBCAC6 /* CarFilterHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarFilterHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		B709362826902E3F00DBCAC6 /* CarFilterHeaderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarFilterHeaderTableViewCell.xib; sourceTree = "<group>"; };
 		B7F21D3B268E0D81001D36B2 /* GetGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7F21D3E268E0D81001D36B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7F21D40268E0D81001D36B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +89,10 @@
 				B70935C3268F85DB00DBCAC6 /* CarItemTableViewCell.swift */,
 				B70935C4268F85DB00DBCAC6 /* CarItemTableViewCell.xib */,
 				B70935C7268FA5BF00DBCAC6 /* BookingDetailsViewController.swift */,
+				B709362326902CB500DBCAC6 /* CarSearchHearderTableViewCell.swift */,
+				B709362426902CB500DBCAC6 /* CarSearchHearderTableViewCell.xib */,
+				B709362726902E3F00DBCAC6 /* CarFilterHeaderTableViewCell.swift */,
+				B709362826902E3F00DBCAC6 /* CarFilterHeaderTableViewCell.xib */,
 			);
 			path = GetGo;
 			sourceTree = "<group>";
@@ -143,8 +155,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7F21D4B268E0D85001D36B2 /* LaunchScreen.storyboard in Resources */,
+				B709362626902CB500DBCAC6 /* CarSearchHearderTableViewCell.xib in Resources */,
 				B70935C6268F85DB00DBCAC6 /* CarItemTableViewCell.xib in Resources */,
 				B7F21D48268E0D85001D36B2 /* Assets.xcassets in Resources */,
+				B709362A26902E3F00DBCAC6 /* CarFilterHeaderTableViewCell.xib in Resources */,
 				B7F21D46268E0D81001D36B2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,8 +173,10 @@
 				B70935BE268F7D8A00DBCAC6 /* SearchViewController.swift in Sources */,
 				B7F21D43268E0D81001D36B2 /* ViewController.swift in Sources */,
 				B7F21D3F268E0D81001D36B2 /* AppDelegate.swift in Sources */,
+				B709362926902E3F00DBCAC6 /* CarFilterHeaderTableViewCell.swift in Sources */,
 				B70935A2268F287500DBCAC6 /* CardView.swift in Sources */,
 				B70935BC268F601A00DBCAC6 /* RentACarViewController.swift in Sources */,
+				B709362526902CB500DBCAC6 /* CarSearchHearderTableViewCell.swift in Sources */,
 				B70935C5268F85DB00DBCAC6 /* CarItemTableViewCell.swift in Sources */,
 				B7F21D41268E0D81001D36B2 /* SceneDelegate.swift in Sources */,
 				B70935C8268FA5BF00DBCAC6 /* BookingDetailsViewController.swift in Sources */,
