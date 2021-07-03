@@ -17,6 +17,8 @@
 		B709362626902CB500DBCAC6 /* CarSearchHearderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B709362426902CB500DBCAC6 /* CarSearchHearderTableViewCell.xib */; };
 		B709362926902E3F00DBCAC6 /* CarFilterHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B709362726902E3F00DBCAC6 /* CarFilterHeaderTableViewCell.swift */; };
 		B709362A26902E3F00DBCAC6 /* CarFilterHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B709362826902E3F00DBCAC6 /* CarFilterHeaderTableViewCell.xib */; };
+		B709362D26903BF700DBCAC6 /* CarItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B709362B26903BF700DBCAC6 /* CarItemCollectionViewCell.swift */; };
+		B709362E26903BF700DBCAC6 /* CarItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B709362C26903BF700DBCAC6 /* CarItemCollectionViewCell.xib */; };
 		B7F21D3F268E0D81001D36B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F21D3E268E0D81001D36B2 /* AppDelegate.swift */; };
 		B7F21D41268E0D81001D36B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F21D40268E0D81001D36B2 /* SceneDelegate.swift */; };
 		B7F21D43268E0D81001D36B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F21D42268E0D81001D36B2 /* ViewController.swift */; };
@@ -36,6 +38,8 @@
 		B709362426902CB500DBCAC6 /* CarSearchHearderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarSearchHearderTableViewCell.xib; sourceTree = "<group>"; };
 		B709362726902E3F00DBCAC6 /* CarFilterHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarFilterHeaderTableViewCell.swift; sourceTree = "<group>"; };
 		B709362826902E3F00DBCAC6 /* CarFilterHeaderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarFilterHeaderTableViewCell.xib; sourceTree = "<group>"; };
+		B709362B26903BF700DBCAC6 /* CarItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		B709362C26903BF700DBCAC6 /* CarItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarItemCollectionViewCell.xib; sourceTree = "<group>"; };
 		B7F21D3B268E0D81001D36B2 /* GetGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7F21D3E268E0D81001D36B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7F21D40268E0D81001D36B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +97,8 @@
 				B709362426902CB500DBCAC6 /* CarSearchHearderTableViewCell.xib */,
 				B709362726902E3F00DBCAC6 /* CarFilterHeaderTableViewCell.swift */,
 				B709362826902E3F00DBCAC6 /* CarFilterHeaderTableViewCell.xib */,
+				B709362B26903BF700DBCAC6 /* CarItemCollectionViewCell.swift */,
+				B709362C26903BF700DBCAC6 /* CarItemCollectionViewCell.xib */,
 			);
 			path = GetGo;
 			sourceTree = "<group>";
@@ -159,6 +165,7 @@
 				B70935C6268F85DB00DBCAC6 /* CarItemTableViewCell.xib in Resources */,
 				B7F21D48268E0D85001D36B2 /* Assets.xcassets in Resources */,
 				B709362A26902E3F00DBCAC6 /* CarFilterHeaderTableViewCell.xib in Resources */,
+				B709362E26903BF700DBCAC6 /* CarItemCollectionViewCell.xib in Resources */,
 				B7F21D46268E0D81001D36B2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -179,6 +186,7 @@
 				B709362526902CB500DBCAC6 /* CarSearchHearderTableViewCell.swift in Sources */,
 				B70935C5268F85DB00DBCAC6 /* CarItemTableViewCell.swift in Sources */,
 				B7F21D41268E0D81001D36B2 /* SceneDelegate.swift in Sources */,
+				B709362D26903BF700DBCAC6 /* CarItemCollectionViewCell.swift in Sources */,
 				B70935C8268FA5BF00DBCAC6 /* BookingDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
